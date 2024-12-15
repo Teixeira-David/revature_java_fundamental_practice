@@ -1,0 +1,12 @@
+/* 
+--1. Challenge: Create an abstract class Shape with an abstract method getArea(). Implement this method in subclasses Circle and Rectangle. 
+--2. Challenge: Extend the Shape abstract class by adding another abstract method getPerimeter(). Implement this method in both Circle and Rectangle.
+        Hint: For a circle, the perimeter is 2 × π × radius
+        Hint: For a rectangle, the perimeter is 2 × (length + width)
+--3. Challenge: Add a new subclass Triangle to Shape. It should take three sides (a, b, c) and implement both getArea() and getPerimeter(). Use Heron’s formula to calculate the area:
+        area = √(s × (s - a) × (s - b) × (s - c))
+        where s = (a + b + c) / 2
+        The perimeter of a triangle is the sum of its three sides.
+--4. Challenge: Write a program that creates a List<Shape> to store different shapes (e.g., Circle, Rectangle, and Triangle). Iterate through the list and display the area and perimeter of each shape.
+--5. Description: Extend the program to sort the shapes in the List<Shape> by area or perimeter. Use a comparator or lambda expressions to implement the sorting logic.
+*/
