@@ -41,7 +41,7 @@ Whether you’re a student, a developer brushing up on Java, or preparing for in
 - Setup
     1. **Clone the repository:**
         ````sh 
-        git clone https://github.com/Teixeira-David/java_practice.git
+        git clone https://github.com/Teixeira-David/revature_java_fundamental_practice.git
     2. **Navigate to the project directory**:
         ````sh 
         cd java_practice
