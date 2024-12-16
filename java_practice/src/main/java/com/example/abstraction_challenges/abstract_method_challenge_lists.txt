@@ -8,5 +8,5 @@
         where s = (a + b + c) / 2
         The perimeter of a triangle is the sum of its three sides.
 --4. Challenge: Write a program that creates a List<Shape> to store different shapes (e.g., Circle, Rectangle, and Triangle). Iterate through the list and display the area and perimeter of each shape.
---5. Description: Extend the program to sort the shapes in the List<Shape> by area or perimeter. Use a comparator or lambda expressions to implement the sorting logic.
+--5. Challenge: Extend the program to sort the shapes in the List<Shape> by area or perimeter. Use a comparator or lambda expressions to implement the sorting logic.
 */
