@@ -1,0 +1,24 @@
+Challenge 1: Simple SELECT
+Problem Statement: Write a query to select all rows from the students table.
+Sample Input: Table students with columns id, name, age.
+Expected Output: All rows are displayed.
+
+Challenge 2: Use WHERE Clause
+Problem Statement: Write a query to fetch all students whose age is greater than 18.
+Sample Input: Table students with age values: 17, 18, 19, 20.
+Expected Output: Rows with ages 19, 20.
+
+Challenge 3: Order Data
+Problem Statement: Write a query to select all columns from the students table and order them by name in ascending order.
+Sample Input: Table students with name values: "Alice", "Bob", "Charlie".
+Expected Output: Rows ordered alphabetically by name.
+
+Challenge 4: Use Aggregate Functions
+Problem Statement: Write a query to calculate the average age of students.
+Sample Input: Table students with age values: 18, 20, 22.
+Expected Output: 20.
+
+Challenge 5: Group Data with HAVING
+Problem Statement: Write a query to find the number of students in each age group, but only show age groups with more than 1 student.
+Sample Input: Table students with age values: 18, 18, 20.
+Expected Output: Age 18, Count 2.

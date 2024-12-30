@@ -1,0 +1,24 @@
+Challenge 1: Inner Join
+Problem Statement: Write a query to fetch rows from students and courses tables where students.course_id matches courses.id.
+Sample Input: Tables students and courses with matching course_id.
+Expected Output: Matched rows.
+
+Challenge 2: Left Join
+Problem Statement: Write a query to fetch all students and their course names, even if they aren't enrolled in any course.
+Sample Input: Tables students and courses with some unmatched course_id.
+Expected Output: All students, with NULL for unmatched courses.
+
+Challenge 3: Right Join
+Problem Statement: Write a query to fetch all courses and the names of students enrolled in them, including courses without students.
+Sample Input: Tables students and courses.
+Expected Output: All courses, with NULL for students not enrolled.
+
+Challenge 4: Full Outer Join
+Problem Statement: Write a query to fetch all students and courses, showing matches where possible and NULL otherwise.
+Sample Input: Tables students and courses.
+Expected Output: All rows, including unmatched ones.
+
+Challenge 5: Self Join
+Problem Statement: Write a query to find students who share the same course_id.
+Sample Input: Table students with column course_id.
+Expected Output: Pairs of students with the same course_id.

@@ -1,0 +1,25 @@
+Challenge 1: Insert Data
+Problem Statement: Write a query to insert a row into the students table with id = 1, name = 'John', and age = 20.
+Sample Input: None.
+Expected Output: Row is inserted.
+
+Challenge 2: Update Data
+Problem Statement: Write a query to update the age of the student with id = 1 to 21.
+Sample Input: Table students with id = 1 and age = 20.
+Expected Output: age is updated to 21.
+
+Challenge 3: Delete Data
+Problem Statement: Write a query to delete all students whose age is less than 18.
+Sample Input: Table students with various age values.
+Expected Output: Rows with age < 18 are removed.
+
+Challenge 4: Insert Multiple Rows
+Problem Statement: Write a query to insert three rows into the students table with different id, name, and age values.
+Sample Input: None.
+Expected Output: 3 rows are inserted.
+
+Challenge 5: Upsert Data
+Problem Statement: Write a query to insert a new student with id = 1 or update their age to 22 if the id already exists.
+Sample Input: Table students may or may not have id = 1.
+Expected Output: Row is inserted or updated based on the condition.
+

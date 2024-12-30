@@ -1,0 +1,24 @@
+Challenge 1: Simple Alias for a Column
+Problem Statement: Write a query to select name from students but display the column as student_name.
+Sample Input: Table students with column name.
+Expected Output: Column heading is student_name.
+
+Challenge 2: Alias for a Table
+Problem Statement: Write a query to select all columns from students using an alias for the table.
+Sample Input: Table students.
+Expected Output: Query uses a table alias like s.
+
+Challenge 3: Using Aliases in a JOIN
+Problem Statement: Write a query to join students and courses tables using aliases for both tables.
+Sample Input: Tables students and courses.
+Expected Output: Query uses aliases like s and c.
+
+Challenge 4: Alias in an Aggregate Function
+Problem Statement: Write a query to calculate the average age of students and display it as avg_age.
+Sample Input: Table students with column age.
+Expected Output: Result column is labeled avg_age.
+
+Challenge 5: Alias for a Subquery
+Problem Statement: Write a query to calculate the total number of students using a subquery with an alias.
+Sample Input: Table students.
+Expected Output: Query uses a subquery alias.

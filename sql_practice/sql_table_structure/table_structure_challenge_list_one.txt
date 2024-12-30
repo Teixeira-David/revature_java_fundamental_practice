@@ -1,0 +1,24 @@
+Challenge 1: Describe a Table
+Problem Statement: Write a query to describe the structure of a table named employees.
+Sample Input: Table employees with columns id, name, salary.
+Expected Output: Displays column names, types, and constraints.
+
+Challenge 2: Add a Column
+Problem Statement: Write a query to add a column department of type VARCHAR(50) to the employees table.
+Sample Input: Table employees with columns id, name, salary.
+Expected Output: Column department is added.
+
+Challenge 3: Modify a Column
+Problem Statement: Write a query to modify the salary column to have a type of DECIMAL(10, 2).
+Sample Input: Table employees with salary as INT.
+Expected Output: Column salary is changed to DECIMAL(10, 2).
+
+Challenge 4: Drop a Column
+Problem Statement: Write a query to remove the department column from the employees table.
+Sample Input: Table employees with columns id, name, salary, department.
+Expected Output: Column department is dropped.
+
+Challenge 5: Rename a Table
+Problem Statement: Write a query to rename the employees table to staff.
+Sample Input: Table name is employees.
+Expected Output: Table is now named staff.

@@ -1,0 +1,24 @@
+Challenge 1: Add a Unique Constraint
+Problem Statement: Write a query to add a unique constraint on the email column of the users table.
+Sample Input: Table users with column email.
+Expected Output: Unique constraint is added.
+
+Challenge 2: Create a Table with Unique Key
+Problem Statement: Write a query to create a table products with a unique key on product_code.
+Sample Input: None.
+Expected Output: Table products created with a unique key.
+
+Challenge 3: Violating Unique Constraint
+Problem Statement: Write a query to insert two rows with the same email into the users table and observe the result.
+Sample Input: Table users with unique email.
+Expected Output: Error on second insert.
+
+Challenge 4: Drop a Unique Constraint
+Problem Statement: Write a query to drop the unique constraint from the email column in the users table.
+Sample Input: Table users with unique constraint on email.
+Expected Output: Unique constraint is removed.
+
+Challenge 5: Combine Unique with Primary Key
+Problem Statement: Write a query to create a table customers with a primary key on id and a unique key on phone_number.
+Sample Input: None.
+Expected Output: Table customers created with both keys.

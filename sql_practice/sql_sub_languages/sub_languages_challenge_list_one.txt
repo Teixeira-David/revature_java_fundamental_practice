@@ -1,0 +1,24 @@
+Challenge 1: Identify DDL Statements
+Problem Statement: Write down three examples of DDL statements.
+Sample Input: None.
+Expected Output: Examples like CREATE, ALTER, DROP.
+
+Challenge 2: Identify DML Statements
+Problem Statement: Write down three examples of DML statements.
+Sample Input: None.
+Expected Output: Examples like INSERT, UPDATE, DELETE.
+
+Challenge 3: Write a TCL Statement
+Problem Statement: Write a query to commit a transaction.
+Sample Input: None.
+Expected Output: Query like COMMIT.
+
+Challenge 4: Write a DCL Statement
+Problem Statement: Write a query to grant a user READ access to a table.
+Sample Input: Table students.
+Expected Output: Query like GRANT SELECT ON students TO user_name.
+
+Challenge 5: Combine Sub-Languages
+Problem Statement: Write a script that creates a table, inserts data, commits the transaction, and grants a user READ access.
+Sample Input: None.
+Expected Output: Combined script.

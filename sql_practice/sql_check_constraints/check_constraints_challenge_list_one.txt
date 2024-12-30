@@ -1,0 +1,24 @@
+Challenge 1: Add a Check Constraint
+Problem Statement: Write a query to add a check constraint on the age column of the students table to ensure age is greater than 18.
+Sample Input: Table students with column age.
+Expected Output: Check constraint added.
+
+Challenge 2: Create a Table with Check Constraint
+Problem Statement: Write a query to create a table employees with a check constraint that ensures salary > 0.
+Sample Input: None.
+Expected Output: Table employees created with check constraint.
+
+Challenge 3: List Constraints
+Problem Statement: Write a query to list all constraints on the students table.
+Sample Input: Table students with constraints.
+Expected Output: Lists all constraints.
+
+Challenge 4: Drop a Check Constraint
+Problem Statement: Write a query to drop the check constraint on age from the students table.
+Sample Input: Table students has a check constraint on age.
+Expected Output: Check constraint is dropped.
+
+Challenge 5: Update Data Violating a Check Constraint
+Problem Statement: Write a query to update the age of a student to 17 and handle the check constraint violation.
+Sample Input: Table students with check constraint age > 18.
+Expected Output: Query fails or bypasses the constraint.

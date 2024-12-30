@@ -1,0 +1,24 @@
+Challenge 1: Add a Default Constraint
+Problem Statement: Write a query to add a default constraint to the age column in the students table, setting the default value to 18.
+Sample Input: Table students with column age.
+Expected Output: Default constraint added.
+
+Challenge 2: Create a Table with Default Constraint
+Problem Statement: Write a query to create a table employees with a status column having a default value of active.
+Sample Input: None.
+Expected Output: Table employees is created with default constraint on status.
+
+Challenge 3: Verify Default Values
+Problem Statement: Write a query to insert a row into the students table without specifying the age column. Verify the default value is applied.
+Sample Input: Insert only name into students.
+Expected Output: age is set to 18.
+
+Challenge 4: Drop a Default Constraint
+Problem Statement: Write a query to drop the default constraint from the age column in the students table.
+Sample Input: Table students has a default constraint on age.
+Expected Output: Default constraint is removed.
+
+Challenge 5: Update Column to Use a Default
+Problem Statement: Write a query to update all rows in the students table where age is NULL to the default value of 18.
+Sample Input: Table students has some rows with age as NULL.
+Expected Output: Rows with NULL age are updated to 18.

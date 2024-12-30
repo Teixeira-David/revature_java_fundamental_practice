@@ -1,0 +1,25 @@
+Challenge 1: Simple SELECT Statement
+Problem Statement: Write a query to select all columns from a table named students.
+Sample Input: Table students with columns id, name, age.
+Expected Output: Returns all rows and columns of the table.
+
+Challenge 2: Filtering Rows with WHERE
+Problem Statement: Write a query to fetch only those students who are older than 18.
+Sample Input: Table students with age values: 16, 19, 20, 15.
+Expected Output: Rows with ages 19, 20.
+
+Challenge 3: Sorting Data
+Problem Statement: Write a query to fetch all students and sort them in descending order by their age.
+Sample Input: Table students with age values: 16, 19, 20, 15.
+Expected Output: Rows in order 20, 19, 16, 15.
+
+Challenge 4: Using DISTINCT
+Problem Statement: Write a query to fetch all distinct student ages from the students table.
+Sample Input: Table students with age values: 16, 19, 19, 20.
+Expected Output: 16, 19, 20.
+
+Challenge 5: Aggregating Data
+Problem Statement: Write a query to find the total number of students in the students table.
+Sample Input: Table students has 4 rows.
+Expected Output: 4.
+

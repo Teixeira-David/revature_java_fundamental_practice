@@ -1,0 +1,24 @@
+Challenge 1: Create a Schema
+Problem Statement: Write a query to create a schema named school.
+Sample Input: None.
+Expected Output: Schema school is created.
+
+Challenge 2: List All Schemas
+Problem Statement: Write a query to list all available schemas in the database.
+Sample Input: Database contains schemas public, school.
+Expected Output: public, school.
+
+Challenge 3: Add a Table to a Schema
+Problem Statement: Write a query to create a table named students under the schema school with columns id, name, age.
+Sample Input: None.
+Expected Output: Table school.students is created.
+
+Challenge 4: Query Data from a Schema
+Problem Statement: Write a query to fetch all rows from the students table in the school schema.
+Sample Input: Schema school with table students.
+Expected Output: All rows from school.students.
+
+Challenge 5: Delete a Schema
+Problem Statement: Write a query to delete the school schema along with all its objects.
+Sample Input: Schema school exists.
+Expected Output: Schema school is deleted.

@@ -1,0 +1,24 @@
+Challenge 1: Create a Table
+Problem Statement: Write a query to create a table departments with columns id and name.
+Sample Input: None.
+Expected Output: Table departments is created.
+
+Challenge 2: Drop a Table
+Problem Statement: Write a query to drop the departments table.
+Sample Input: Table departments exists.
+Expected Output: Table is dropped.
+
+Challenge 3: Rename a Column
+Problem Statement: Write a query to rename the column name in the departments table to department_name.
+Sample Input: Table departments with columns id, name.
+Expected Output: Column name is renamed to department_name.
+
+Challenge 4: Add a Primary Key
+Problem Statement: Write a query to add a primary key to the id column in the departments table.
+Sample Input: Table departments with column id.
+Expected Output: Primary key constraint added to id.
+
+Challenge 5: Truncate a Table
+Problem Statement: Write a query to remove all rows from the departments table without deleting the table structure.
+Sample Input: Table departments has 10 rows.
+Expected Output: All rows are removed, but the table structure remains.
